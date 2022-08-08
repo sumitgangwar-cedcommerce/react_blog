@@ -1,0 +1,127 @@
+#homemaindiv{
+    background: linear-gradient(87deg, rgba(242,242,242,1) 0%, rgba(212,217,217,1) 55%, rgba(196,196,196,1) 100%);
+
+}
+#repetitivedivhome{
+    width:90%;
+    margin:auto;
+    border-radius:5px;
+    margin-top:5%;
+    background-color: #000000 !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;}
+#h1{
+    width:70%;
+    margin:auto;
+    text-align: left;
+    padding:2vw;
+    font-size:2.8vw;
+    font-weight:600;
+}
+#icons{
+    float:right;
+    width:20%;
+
+}
+.iconhome{
+    margin-right:2%;
+}
+#h2{
+    width:62%;
+    margin:auto;
+    text-align: center;;
+    padding:2vw;
+}
+#span1{
+    float:right;
+    color:#071e22;
+    font-size:1.8vw;
+    font-weight:400;
+}
+#userblogimagedivinhome{
+    width:70%;
+    margin:auto;
+    
+}
+#userblogimageid{
+    width:90%;
+    margin:auto;
+  
+}
+#userblogcontentinhome{
+    width:100%;
+    margin:auto;
+}
+#pcontent{
+    width:80%;
+    margin:auto;
+    margin-top:2%;
+    font-size:1.5vw;
+    letter-spacing: 2px;
+    font-weight:bold;
+    justify-content: center;
+    padding:1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    #repetitivedivhome{
+        width:90%;
+        margin:auto;
+        border-radius:5px;
+        margin-top:5%;
+        background-color: #000000;
+        box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(95, 100, 95, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    }
+    #h1{
+        width:70%;
+        margin:auto;
+        text-align: left;
+        padding:2vw;
+        font-size:4vw;
+        font-weight:600;
+    }
+    #icons{
+        float:right;
+        width:20%;
+    
+    }
+    .iconhome{
+        margin-right:2%;
+    }
+    #h2{
+        width:62%;
+        margin:auto;
+        text-align: center;
+        padding:2vw;
+        font-size:5vw;
+    }
+    #span1{
+        float:right;
+        color:#071e22;
+        font-size:3vw !important;
+        font-weight:400;
+    }
+    #userblogimagedivinhome{
+        width:70%;
+        margin:auto;
+        
+    }
+    #userblogimageid{
+        width:90%;
+        margin:auto;
+      
+    }
+    #userblogcontentinhome{
+        width:100%;
+        margin:auto;
+    }
+    #pcontent{
+        width:80%;
+        margin:auto;
+        margin-top:2%;
+        font-size:4vw !important;
+        letter-spacing: 2px;
+        font-weight:bold;
+        justify-content: center;
+        padding:1vw;
+    }
+}

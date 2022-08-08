@@ -1,0 +1,63 @@
+#repetitivedivhome{
+    color:white !important;
+    background: linear-gradient(180deg, rgba(90,158,231,1) 0%, rgba(68,120,177,1) 35%, rgba(33,58,88,1) 100%);
+    width:90%;
+    margin:auto;
+    border-radius:5px;
+    margin-top:5%;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(95, 100, 95, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+#h3{
+    width:70%;
+    margin:auto;
+    margin-top:0;
+    padding:0;
+    text-align: right;;
+      
+}
+.delete{
+    background: linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(20,20,20,1) 55%, rgba(0,0,0,1) 100%) !important;
+    font-size:1.7vw !important;
+}
+.edit{
+    border:none;
+    font-size:1.7vw !important;
+    background: linear-gradient(180deg, rgba(43,43,43,1) 0%, rgba(20,20,20,1) 55%, rgba(0,0,0,1) 100%) !important;
+}
+
+#h2{
+    width:70%;
+    margin:auto;
+    text-align: left;;
+    
+}
+#span1{
+    float:right;
+    color:#071e22;
+    font-size:1.8vw;
+    font-weight:400;
+}
+#userblogimagedivinhome{
+    width:70%;
+    margin:auto;
+    
+}
+#userblogimageid{
+    width:90%;
+    margin:auto;
+  
+}
+#userblogcontentinhome{
+    width:100%;
+    margin:auto;
+}
+#pcontent{
+    width:80%;
+    margin:auto;
+    margin-top:2%;
+    font-size:1.5vw;
+    letter-spacing: 2px;
+    font-weight:bold;
+    justify-content: center;
+    padding:1vw;
+}

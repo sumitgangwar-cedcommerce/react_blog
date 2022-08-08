@@ -1,0 +1,301 @@
+#navbarmaindiv{
+    position: sticky;
+    top:0;
+    background: linear-gradient(90deg, rgba(90,158,231,1) 0%, rgba(68,120,177,1) 35%, rgba(33,58,88,1) 100%);
+    display:flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#nav{
+    width:40%; 
+    text-align: left;;
+}
+input[type=button]{
+
+    /* width:10%; */
+    background: linear-gradient(183deg, rgba(231,90,156,1) 0%, rgba(177,68,71,1) 55%, rgba(88,33,85,1) 100%);
+    margin: .2vw;
+    border:none;
+    border-radius:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    padding:1vw;
+    margin-top:1vw;
+    margin-bottom:1vw;
+    cursor:pointer;
+    font-size:2.5vw;
+    padding:1vw;
+    font-weight:900;
+    color:#ffffff;
+}
+#btn1{
+    margin-left:1vw;
+}
+#register{
+    margin-left:35%;
+    /* width:50%; */
+      
+}
+#login{
+    /* width:50%; */
+    margin-left:7%; 
+}
+button{
+    /* width:10%;  */
+    background: linear-gradient(180deg, rgb(0, 37, 75) 0%, rgb(4, 72, 175) 45%, rgb(0, 38, 85) 100%) !important;
+
+    border:none;
+    border-radius:10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    background: linear-gradient(87deg, rgba(90,158,231,1) 0%, rgba(68,84,177,1) 55%, rgba(38,33,88,1) 100%);
+    font-size:2vw;
+    padding: 1vw;
+    font-weight:bold;
+    Margin-top:1vw;
+    color:#ffffff;
+    margin-bottom:1vw;
+    cursor:pointer;
+}
+/* .popover__title {
+    font-size: 24px; 
+    line-height: 36px;
+    text-decoration: none;
+    color: rgb(228, 68, 68);
+     text-align: center; 
+     padding: 15px 0; 
+  }  */
+  
+  .popover__wrapper {
+    position: relative;
+    /* margin-top: 1.5rem; */
+    display: inline-block;
+  }
+  .popover__content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: -10px;
+    transform: translate(0, 10px);
+    background-color: #232121;
+    padding: 1vw;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    width: auto;
+    border-radius:10px;
+    color: #ffffff;
+  }
+  .popover__content:before {
+    position: absolute;
+    z-index: -1;
+    content: "";
+    right: calc(50% - 10px);
+    top: -8px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #bfbfbf transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+  .popover__wrapper:hover .popover__content {
+    z-index: 10;
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, -20px);
+    transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+  }
+  .popover__message {
+    text-align: center;
+  }
+  #welcomeuser{
+    margin:auto;
+    
+  }
+  #welcomeuserbtn{
+    background: linear-gradient(183deg, #1363DF 100%, rgb(227, 227, 227) 55%, rgb(7, 130, 245) 100%) !important;
+    padding:1vw;
+    font-size:2vw;
+    font-weight:bold;
+    Margin-top:1vw;
+    color:#DFF6FF !important;
+    margin-bottom:1vw;
+    cursor:pointer;
+    border:none;
+    border-radius:3px;
+  }
+
+  #welcomeuserbtn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  #writehere{
+    margin:auto;
+  }
+  #writeherebtn{
+    background: linear-gradient(183deg, #1363DF 100%, rgb(227, 227, 227) 55%, rgb(7, 130, 245) 100%) !important;
+    font-size:2vw;
+    font-weight:bold;
+    Margin-top:1vw;
+    color:#ffffff;
+    margin-bottom:1vw;
+    cursor:pointer;
+    border:none;
+    border-radius:5px;
+
+  }
+  #writeherebtn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  input[type=submit]{
+    width:90%;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border:none;
+    outline:none;
+    margin:0.3vw;
+    font-size:1.5vw;
+    color:#071e22;
+    background-color: white;;
+  }
+  input[type=submit]:hover{
+    background-color: #679289;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    #navbarmaindiv{
+      background-color: #071e22;
+      display:flex;
+  }
+  #nav{
+      width:43%; 
+      text-align: left;;
+  }
+  input[type=button]{
+  
+      /* width:10%; */
+      padding:1vw;
+      margin-top:1vw;
+      margin-bottom:1vw;
+      cursor:pointer;
+      font-size:4vw;
+      font-weight:bold;
+      color:#071e22;
+  }
+  #btn1{
+      margin-left:1vw;
+  }
+  #register{
+      margin-left:35%;
+      /* width:50%; */
+        
+  }
+  #login{
+      /* width:50%; */
+      margin-left:7%; 
+  }
+  button{
+      /* width:10%;  */
+      padding:1vw;
+      font-size:4vw;
+      font-weight:bold;
+      Margin-top:1vw;
+      color:#071e22;
+      margin-bottom:1vw;
+      cursor:pointer;
+  }
+  /* .popover__title {
+      font-size: 24px; 
+      line-height: 36px;
+      text-decoration: none;
+      color: rgb(228, 68, 68);
+       text-align: center; 
+       padding: 15px 0; 
+    }  */
+    
+    .popover__wrapper {
+      position: relative;
+      /* margin-top: 1.5rem; */
+      display: inline-block;
+    }
+    .popover__content {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+      left: -10px;
+      transform: translate(0, 10px);
+      background-color: #bfbfbf;
+      padding: 1.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      width: auto;
+    }
+    .popover__content:before {
+      position: absolute;
+      z-index: -1;
+      content: "";
+      right: calc(50% - 10px);
+      top: -8px;
+      border-style: solid;
+      border-width: 0 10px 10px 10px;
+      border-color: transparent transparent #bfbfbf transparent;
+      transition-duration: 0.3s;
+      transition-property: transform;
+    }
+    .popover__wrapper:hover .popover__content {
+      z-index: 10;
+      opacity: 1;
+      visibility: visible;
+      transform: translate(0, -20px);
+      transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+    }
+    .popover__message {
+      text-align: center;
+    }
+    #welcomeuser{
+      margin:auto;
+      
+    }
+    #welcomeuserbtn{
+      background-color: white;
+      padding:1vw;
+      font-size:4vw;
+      font-weight:bold;
+      Margin-top:1vw;
+      color:#071e22;
+      margin-bottom:1vw;
+      cursor:pointer;
+      border:none;
+      border-radius:3px;
+    }
+  
+    #welcomeuserbtn:hover{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    #writehere{
+      margin:auto;
+    }
+    #writeherebtn{
+      background-color: white;
+      padding:1vw;
+      font-size:4vw;
+      font-weight:bold;
+      Margin-top:1vw;
+      color:#071e22;
+      margin-bottom:1vw;
+      cursor:pointer;
+      border:none;
+      border-radius:3px;
+  
+    }
+    #writeherebtn:hover{
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    input[type=submit]{
+      width:90%;
+      cursor:pointer;
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+      border:none;
+      outline:none;
+      margin:0.3vw;
+      font-size:1.5vw;
+      color:#071e22;
+      background-color: white;;
+    }
+    input[type=submit]:hover{
+      background-color: #679289;
+    }
+    
+  }
